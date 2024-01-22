@@ -1,0 +1,30 @@
+body {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    display: flex;
+}
+
+#imgContainer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+img {
+    width: 20%;
+}
+
+#imgContainer {
+    margin-bottom: 1rem;
+}
+
+#announcer {
+    margin-top: 1rem;
+}
